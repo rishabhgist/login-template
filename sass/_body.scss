@@ -24,6 +24,7 @@ body{
     & .brand{
         color: $secondry-color;
         text-align: center;
+        margin: 1.5rem 0;
         &-logo{
                 & img {
                     height: 100px;
@@ -43,5 +44,25 @@ body{
             text-decoration: underline;
             color: $secondry-color;
         }
+    }
+
+    & .form {
+        & form{
+            display: flex;
+            flex-direction: column;
+        }
+        &-label {
+            font-size: .9rem;
+        }
+        & input {
+            outline: none;
+            border: none;
+            background-color: inherit;
+            margin: 0.5rem 0 1.2rem 0;
+            padding-right: 1rem;
+            height: 1.7rem;
+            border-bottom: 1px solid $secondry-color;
+        }
+        
     }
 }
