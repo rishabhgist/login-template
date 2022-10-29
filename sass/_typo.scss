@@ -1,5 +1,11 @@
-$primary: 1rem;
+$tx-small: 1rem;
+$tx-medium: 1.5rem;
+$tx-large: 1.8rem;
 
 h1{
-    font-size: $primary;
+    font-size: $tx-medium;
 }
+p{
+    width: fit-content;
+    font-size: $tx-small;
+}   
