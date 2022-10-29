@@ -47,7 +47,8 @@ body {
     margin: 0.5rem 0 1.2rem 0;
     padding-right: 1rem;
     height: 1.7rem;
-    border-bottom: 1px solid #00643C; }
+    border-bottom: 1px solid #00643C;
+    z-index: 1; }
 
 .footer {
   margin: 1rem 0;
