@@ -72,15 +72,26 @@ body{
     }
 }
 .btn{
-    height: 50px;
+    height: 45px;
     width: 200px;
-    border-radius: 15px;
+    border-radius: 5px;
     outline: none;
     border: none;
     cursor: pointer;
+    transition: .2s;
+
+    &:hover{
+        background-color: $bg-wheat;
+        color: $secondry-color;
+        border: 1px solid $secondry-color;
+    }
+    &:active{
+        transform: translateY(2px);
+    }
 
     &-primary{
         background-color: $secondry-color;
         color: #fff;
     }
+
 }

@@ -50,12 +50,19 @@ body {
     border-bottom: 1px solid #00643C; }
 
 .btn {
-  height: 50px;
+  height: 45px;
   width: 200px;
-  border-radius: 15px;
+  border-radius: 5px;
   outline: none;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: .2s; }
+  .btn:hover {
+    background-color: whitesmoke;
+    color: #00643C;
+    border: 1px solid #00643C; }
+  .btn:active {
+    transform: translateY(2px); }
   .btn-primary {
     background-color: #00643C;
     color: #fff; }
