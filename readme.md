@@ -6,4 +6,4 @@
 - Languages - `HTML`, `CSS`, `SCSS`
 - Preview - https://rishabhgist.com/demo/login-template
 # 
-![]('body.JPG')
+![](body.JPG)
