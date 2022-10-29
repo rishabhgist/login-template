@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 
-// Default Colors
-$primary-color : #000;
-$secondry-color: #273b6e;
-$bg-color: #d4d4d4;
-$bg-wheat:whitesmoke; 
+
 
 *{
     box-sizing: border-box;
@@ -30,12 +26,14 @@ body{
         text-align: center;
         &-logo{
                 & img {
-                    height: 150px;
-                    width: 150px;
+                    height: 100px;
+                    width: 100px;
                 }   
             }
         &-text{
             font-weight: 700;
+            font-size: $tx-small;
+            text-transform: uppercase;
         }
         }
 
@@ -43,6 +41,7 @@ body{
         &-block{
             font-weight: 600;
             text-decoration: underline;
+            color: $secondry-color;
         }
     }
 }

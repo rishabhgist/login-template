@@ -16,16 +16,19 @@ body {
   margin: auto;
   border-radius: 20px; }
   .main .brand {
-    color: #273b6e;
+    color: #00643C;
     text-align: center; }
     .main .brand-logo img {
-      height: 150px;
-      width: 150px; }
+      height: 100px;
+      width: 100px; }
     .main .brand-text {
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 1.5rem;
+      text-transform: uppercase; }
   .main .header-block {
     font-weight: 600;
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: #00643C; }
 
 h1 {
   font-size: 2.5rem; }
