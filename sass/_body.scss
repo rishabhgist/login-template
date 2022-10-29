@@ -5,7 +5,7 @@
 $primary-color : #000;
 $secondry-color: #273b6e;
 $bg-color: #d4d4d4;
-
+$bg-wheat:whitesmoke; 
 
 *{
     box-sizing: border-box;
@@ -16,4 +16,16 @@ $bg-color: #d4d4d4;
 body{
     font-family: Nunito, sans-serif;
     background-color: $bg-color;
+    padding: 2.5rem 0;
+}
+.main {
+    padding: 3rem;
+    background-color: $bg-wheat;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    
+    &-brand{
+        color: $secondry-color;
+    }
 }

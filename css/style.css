@@ -6,7 +6,17 @@
 
 body {
   font-family: Nunito, sans-serif;
-  background-color: #d4d4d4; }
+  background-color: #d4d4d4;
+  padding: 2.5rem 0; }
+
+.main {
+  padding: 3rem;
+  background-color: whitesmoke;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px; }
+  .main-brand {
+    color: #273b6e; }
 
 h1 {
   font-size: 1.5rem; }
