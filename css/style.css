@@ -49,9 +49,18 @@ body {
     height: 1.7rem;
     border-bottom: 1px solid #00643C; }
 
+.footer {
+  margin: 1rem 0;
+  text-align: center; }
+  .footer-text {
+    width: auto;
+    font-size: 1rem;
+    color: gray;
+    margin: 1rem 0; }
+
 .btn {
   height: 45px;
-  width: 200px;
+  width: 100%;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -65,7 +74,14 @@ body {
     transform: translateY(2px); }
   .btn-primary {
     background-color: #00643C;
-    color: #fff; }
+    color: whitesmoke; }
+  .btn-dark {
+    background-color: gray;
+    color: whitesmoke; }
+    .btn-dark:hover {
+      background-color: whitesmoke;
+      color: gray;
+      border: 1px solid gray; }
 
 h1 {
   font-size: 2.5rem; }

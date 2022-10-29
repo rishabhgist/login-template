@@ -71,9 +71,20 @@ body{
         
     }
 }
+.footer{
+    margin: 1rem 0;
+    text-align: center;
+
+    &-text{
+        width: auto;
+        font-size: $tx-ex-small;
+        color: $light-color;
+        margin: 1rem 0;
+    }
+}
 .btn{
     height: 45px;
-    width: 200px;
+    width: 100%;
     border-radius: 5px;
     outline: none;
     border: none;
@@ -91,7 +102,16 @@ body{
 
     &-primary{
         background-color: $secondry-color;
-        color: #fff;
+        color: $bg-wheat;
+    }
+    &-dark{
+        background-color: $light-color;
+        color: $bg-wheat;
+        &:hover {
+                background-color: $bg-wheat;
+                color: $light-color;
+                border: 1px solid $light-color;
+            }
     }
 
 }
