@@ -1,9 +1,9 @@
-$tx-small: 1rem;
-$tx-medium: 1.5rem;
-$tx-large: 1.8rem;
+$tx-small: 1.5rem;
+$tx-medium: 2rem;
+$tx-large: 2.5rem;
 
 h1{
-    font-size: $tx-medium;
+    font-size: $tx-large;
 }
 p{
     width: fit-content;

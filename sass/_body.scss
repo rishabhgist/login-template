@@ -21,11 +21,28 @@ body{
 .main {
     padding: 3rem;
     background-color: $bg-wheat;
-    width: 70%;
+    width: 600px;
     margin: auto;
     border-radius: 20px;
-    
-    &-brand{
+
+    & .brand{
         color: $secondry-color;
+        text-align: center;
+        &-logo{
+                & img {
+                    height: 150px;
+                    width: 150px;
+                }   
+            }
+        &-text{
+            font-weight: 700;
+        }
+        }
+
+    & .header{
+        &-block{
+            font-weight: 600;
+            text-decoration: underline;
+        }
     }
 }

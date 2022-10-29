@@ -12,15 +12,24 @@ body {
 .main {
   padding: 3rem;
   background-color: whitesmoke;
-  width: 70%;
+  width: 600px;
   margin: auto;
   border-radius: 20px; }
-  .main-brand {
-    color: #273b6e; }
+  .main .brand {
+    color: #273b6e;
+    text-align: center; }
+    .main .brand-logo img {
+      height: 150px;
+      width: 150px; }
+    .main .brand-text {
+      font-weight: 700; }
+  .main .header-block {
+    font-weight: 600;
+    text-decoration: underline; }
 
 h1 {
-  font-size: 1.5rem; }
+  font-size: 2.5rem; }
 
 p {
   width: fit-content;
-  font-size: 1rem; }
+  font-size: 1.5rem; }
